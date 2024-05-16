@@ -90,6 +90,8 @@ For SX = 0 and SY = 1, using online tool <http://www.32x8.com/index.html> P is g
 
 P = M(6,7,8,9,10,11,16,18,20,22,24,26) 
 
+P = M(6,7,8,9,10,11,16,18,20,22,24,26)
+
 P = (SX'×n1 ×n0')+(n1 × n0'×T15') +(SX×n1 ×T15')+(SX'×n1' ×n0 ×T65)
 ## <a name="_toc75525228"></a>**5.3 Thermal imaging Camera Sensor Positioning**
 
