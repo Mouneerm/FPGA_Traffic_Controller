@@ -84,7 +84,7 @@ Inputs of Moore diagram are: n1, n0, T65, T15, where X in the diagram can be 0 o
 <tr><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">0</td></tr>
 </table>
 
-<a name="_toc75525414"></a>Table 7: State transition table for Pedestrian Controller
+<a name="_toc75525414"></a> State transition table for Pedestrian Controller
 
 For SX = 0 and SY = 1, using online tool <http://www.32x8.com/index.html> P is given by	
 
@@ -172,7 +172,7 @@ Assumptions:
 
 
 
-#########################################################
+
 
 Priority Order: 
 
@@ -246,7 +246,7 @@ Emergency Vehicle (E) > Pedestrians (P)  > Cars at A1 (C)
 <tr><td colspan="1" valign="top">63</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">S<sub>1</sub></td></tr>
 </table>
 
-<a name="_toc75525420"></a>Table 13: When Present State is S<sub>0</sub>
+<a name="_toc75525420"></a> When Present State is S<sub>0</sub>
 
 Using the <http://www.32x8.com/var6.html> website, the equations were generated to obtain equations requirement for the next possible state S<sub>1</sub>, S<sub>0</sub>
 
@@ -322,7 +322,7 @@ Using the <http://www.32x8.com/var6.html> website, the equations were generated 
 <tr><td colspan="1" valign="top">63</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">S<sub>2</sub></td></tr>
 </table>
 
-<a name="_toc75525421"></a>Table 14: When Present State is S<sub>1</sub>
+<a name="_toc75525421"></a> When Present State is S<sub>1</sub>
 
 Using the <http://www.32x8.com/var6.html> website, the Sum of Min terms were generated and equations were generated to obtain equations requirement for the next state S<sub>2</sub> and/or S<sub>3</sub>.
 
@@ -400,7 +400,7 @@ Using the <http://www.32x8.com/var6.html> website, the Sum of Min terms were gen
 <tr><td colspan="1" valign="top">63</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">S<sub>2</sub></td></tr>
 </table>
 
-<a name="_toc75525422"></a>Table 15: When Present State is S<sub>2</sub>
+<a name="_toc75525422"></a> When Present State is S<sub>2</sub>
 
 Using the <http://www.32x8.com/var6.html> website, the Sum of Min terms were generated and equations were generated to obtain equations requirement for the next state S<sub>2</sub> and/or S<sub>3</sub>.
 
@@ -476,7 +476,7 @@ Using the <http://www.32x8.com/var6.html> website, the Sum of Min terms were gen
 <tr><td colspan="1" valign="top">63</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">S<sub>2</sub></td></tr>
 </table>
 
-<a name="_toc75525423"></a>Table 16: When Present State is S<sub>3</sub>
+<a name="_toc75525423"></a> When Present State is S<sub>3</sub>
 
 Using the <http://www.32x8.com/var6.html> website, the equations were generated to obtain equations requirement for the next possible state S<sub>4</sub>, S<sub>3</sub>, S<sub>2</sub> and S<sub>0</sub>.
 
@@ -556,7 +556,7 @@ S<sub>4</sub> = (T5 × P × E')
 <tr><td colspan="1" valign="top">63</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">S<sub>3</sub></td></tr>
 </table>
 
-<a name="_toc75525424"></a>Table 17: When Present State is S<sub>4</sub>
+<a name="_toc75525424"></a> When Present State is S<sub>4</sub>
 
 Using the <http://www.32x8.com/var6.html> website, the Sum of Min terms were generated and equations were generated to obtain equations requirement for the next state S<sub>4</sub> and/or S<sub>3</sub>.
 
@@ -565,17 +565,37 @@ S<sub>4</sub> = (0,2,4,6,8,10,12,14,32,34,36,38,40,42,44,46)
 <i>S<sub>4</sub> = T15</i>'×E'</i>  
 
 <i>S<sub>3</sub> = T15 + E</i>			
-## <a name="_toc75525235"></a>**7.3 SoundOff Opticom Preemption Module**
+
+#### SoundOff Opticom Preemption Module**
 
 Installation of this module in the traffic control system would allow emergency vehicle pre-emption at the intersection. The module would generate a series of pulses in the infrared wavelength and would trigger the green light of road Julius Nyerere Ave and Dr Maurice Cure St. Hence, 2 sensors would be used here. It would be placed on the traffic light robot and would be facing the direction of the road lines. The sensors would be as high as possible on the controller. The police department and Health care workers would be given a remote controller for that matter with a tracker for the sensor to identify.
 
-![](Aspose.Words.5331a14c-af3f-4348-a4de-74231af25efa.010.png)
 
-<a name="_toc75525307"></a>Figure 9: Emergency Vehicle Sensor
 
-## <a name="_toc75525236"></a>**7.4 Timers**
+#### Timers
 
 As mentioned above, several timers are to be used for the proposed controller, including T30, T15, T65 and T5. For proper synchronization of the timers with the different sensors used, the timers T30, T15 and T5 would be reset every time there is a change in State. 555 timers or typical pulse generators could be used for generating the time pulses.
 
 
+![image](https://github.com/Mouneerm/FPGA_Traffic_Controller/assets/45911394/f32b243f-4346-4ef1-9b93-5bda42a5b97d)
+
+
+## Design and Simulation Results
+
+#### Normal operation:
+
+![image](https://github.com/Mouneerm/FPGA_Traffic_Controller/assets/45911394/e98b3197-926e-4a1b-b914-9ad466065aec)
+
+#### When Car detected on Main road (C = 1):
+
+![image](https://github.com/Mouneerm/FPGA_Traffic_Controller/assets/45911394/a8610c9d-deb1-45df-b424-0490ce4afbed)
+
+#### When Emergency Vehicle detected (E=1):
+
+![image](https://github.com/Mouneerm/FPGA_Traffic_Controller/assets/45911394/2adcc847-3a56-45af-a831-648eba85f902)
+
+
+#### Pedestrian Detected (P = 1)
+
+![image](https://github.com/Mouneerm/FPGA_Traffic_Controller/assets/45911394/773b4969-3e67-47e9-8b0a-600422f14224)
 
