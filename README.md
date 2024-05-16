@@ -19,3 +19,11 @@ Also, this project would facilitate navigation of emergency vehicles from the Ro
 During peak hours, priority would be shifted towards giving the main road A1 green lights. The number of pedestrians waiting to cross the road is also counted.
 
 ### Pedestrian Sensors- Controller design
+
+
+
+| Input (n) for the 8 positions   | Representation (n1n0)  |
+|----------|-------------------------|
+| 0        | 00                      |
+| 1< n < 4 | 01                      |
+| 4≤ 8     | 10                      |
