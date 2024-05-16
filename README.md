@@ -2,7 +2,7 @@
 
 
 ### Introduction
-In this project, a Smart Traffic Light Controller was implemented in a dense traffic area in Mauritius using Finite State Machines. The location was chosen to be the intersection of Dr Maurice Cure St, Road A1, and Julius Nyerere Ave at Rose-Hill was chosen.
+In this project, a Smart Traffic Light Controller was implemented in a dense traffic area in Mauritius using Finite State Machines. The location was chosen to be the intersection of Dr Maurice Cure St, Road A1, and Julius Nyerere Ave at Rose-Hill was chosen. The controller was implemented in **Xilinx Spartran 6 LX16 FPGA**.
 
 ![image](https://github.com/Mouneerm/FPGA_Traffic_Controller/assets/45911394/00ecb0aa-d4fd-4077-bb00-609db17be1d6)
 
