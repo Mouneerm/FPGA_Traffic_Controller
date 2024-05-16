@@ -89,7 +89,8 @@ Inputs of Moore diagram are: n1, n0, T65, T15, where X in the diagram can be 0 o
 For SX = 0 and SY = 1, using online tool <http://www.32x8.com/index.html> P is given by	
 
 
-P = \sum\limits_{M}^{} (6,7,8,9,10,11,16,18,20,22,24,26)
+$P = \sum\limits_{M}^{} (6,7,8,9,10,11,16,18,20,22,24,26)$
+
 P = \\sum M(6,7,8,9,10,11,16,18,20,22,24,26)
 
 P = (SX'×n1 ×n0')+(n1 × n0'×T15') +(SX×n1 ×T15')+(SX'×n1' ×n0 ×T65)
