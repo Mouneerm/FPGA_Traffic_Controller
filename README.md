@@ -404,9 +404,9 @@ Using the <http://www.32x8.com/var6.html> website, the Sum of Min terms were gen
 
 Using the <http://www.32x8.com/var6.html> website, the Sum of Min terms were generated and equations were generated to obtain equations requirement for the next state S<sub>2</sub> and/or S<sub>3</sub>.
 
-$<i>S<sub>2</sub> = E + (T30</i>' × <i>C</i>'</i> × <i>P</i>')$
+<i>S<sub>2</sub> = E + (T30</i>' × <i>C</i>'</i> × <i>P</i>')
 
-$<i>S<sub>3</sub> =  (P</i> ×E') <i>+ (C</i> ×E')<i>+ (T30</i> ×E'<i>)</i>$
+<i>S<sub>3</sub> =  (P</i> ×E') <i>+ (C</i> ×E')<i>+ (T30</i> ×E'<i>)</i>
 
 <table><tr><th colspan="1" rowspan="2" valign="top"><b>No</b></th><th colspan="1" rowspan="2" valign="top"><p><b>Present State</b></p><p></p></th><th colspan="6" valign="top"><b>Inputs</b></th><th colspan="1" rowspan="1" valign="top"><b>Next State</b></th></tr>
 <tr><td colspan="1" valign="top"><b>T30</b></td><td colspan="1" valign="top"><b>T15</b></td><td colspan="1" valign="top"><b>T5</b></td><td colspan="1" valign="top"><b>C</b></td><td colspan="1" valign="top"><b>P</b></td><td colspan="1" valign="top"><b>E</b></td></tr>
